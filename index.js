@@ -20,6 +20,35 @@ var number2 = 56;
 console.log(number1+number2)
 
 // 4. Data Types in Data Types
+//integer
+var num1=21331;
+var num2 = 34234;
+//string
+var str1 = "This is String";
+var str2 = "This is second String";
 
+//object
+var marks = {
+    ravi:34,
+    shubham:78,
+    harry:977.324
+}
+
+//Booleans
+var a= true;
+var b = false;
+console.log("a is ", a,"and b is",b);
+
+//undefined properties
+var und = undefined;
+var undefine;
+console.log(und);
+console.log(undefined)
+console.log(undefine)
+
+//null properties
+var n = null;
+console.log(n)
+console.log(null)
 
 

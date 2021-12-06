@@ -52,3 +52,25 @@ console.log(n)
 console.log(null)
 
 
+/*Types of datatypes in JS
+1.primitive data type
+  -underfined, nullm number, string, boolean,symbol
+
+2.refrence data types
+  --Arrays
+*/
+
+//Arrays Properties
+var arr =[1,2,"Aayush",4,5,8]
+console.log(arr)
+console.log(arr[2])
+console.log(arr[2])
+console.log(arr[4])
+
+
+for(let i = 0; i<arr.length;i++){
+console.log(arr[i])
+}
+console.log(arr.length)
+
+

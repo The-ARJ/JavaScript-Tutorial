@@ -74,3 +74,52 @@ console.log(arr[i])
 console.log(arr.length)
 
 
+
+// Operators in JS
+var a = 66;
+var b = 33;
+
+//Arithematic Operators
+console.log("The value of a + b is ", a+b);
+console.log("The value of a + b is ", a-b);
+console.log("The value of a + b is ", a*b);
+console.log("The value of a + b is ", a/b);
+
+
+//Assignment Operators
+var c = b;
+console.log(c)
+c +=20;
+console.log(c) //value of b is assigned to c
+
+
+//Comparision Operators
+var x = 34;
+var y = 35;
+console.log(x==y);//Equals to
+console.log(x>y);//Greater than
+console.log(x>=y);//greater or equal to
+console.log(x<y);//smaller than
+console.log(x<=y);//small equal to
+
+//Logical Operators
+//Logical And (&&)  
+console.log(true && true)
+ console.log(true&&false)
+ console.log(false&&false)
+ console.log(false&&true)
+
+
+// Logical or(||)
+ console.log(true|| true)
+ console.log(true||false)
+ console.log(false||false)
+ console.log(false||true)
+
+//bitwise operator - not important
+
+// Logical Not(!)
+console.log(!true)
+console.log(!false)
+
+

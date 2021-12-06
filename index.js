@@ -122,4 +122,15 @@ console.log(true && true)
 console.log(!true)
 console.log(!false)
 
+//------------------------------------------------------------------------------------
 
+// FUNCTION in JAVA SCRIPT
+function avg(a,b){
+    return (a+b)/2;
+}
+//DRY = DO NOT REPEAT YOURSELF
+c1=avg(4,6);
+c2=avg(14,16)
+console.log(c1,c2)
+
+// CONDITIONALS IN JAVA SCRIPT

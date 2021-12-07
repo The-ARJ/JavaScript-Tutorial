@@ -134,3 +134,53 @@ c2=avg(14,16)
 console.log(c1,c2)
 
 // CONDITIONALS IN JAVA SCRIPT
+//if else
+var age =32
+if(age>8){
+    console.log("You are Adult");
+}
+else{
+    console.log("You are kid")
+}
+
+//if else ladder
+if (age > 32){
+    console.log("Yoy are not Kid")
+}
+else if(age>22){
+    console.log("You are kid")
+}
+else if(age>18){
+    console.log("you are 18 years old")
+}
+else{
+    console.log("You are not human")
+}
+
+
+//For LOOPS in JAVA SCRIPT
+var ar =[1,2,3,4,5,6,7,8]
+console.log(ar);
+for(var i = 0;i<ar.length;i++){
+    console.log(i)
+}
+
+
+//while loop in JS
+// const ac =0;//making a variable constant -used to not change value
+// ac++;
+// ac = ac+1;
+let j = 0;
+while(j<arr.length){
+console.log(arr[j]);
+j++;
+}
+
+
+//Do while loop in JS
+do{
+console.log(arr[j]);
+j++
+}while(j<arr.length);
+
+//Break and Continue Statement in JS
